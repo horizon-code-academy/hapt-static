@@ -1,0 +1,51 @@
+@import url("http://fonts.cdnfonts.com/css/chunkfive");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ChunkFive", sans-serif;
+}
+
+.login-left,
+.login-right {
+  height: 100vh;
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  .login-left,
+  .login-right {
+    height: 50vh;
+  }
+  .login-right .card {
+    margin-top: -30vh;
+  }
+}
+
+/* STYLE */
+.login-left {
+  background: linear-gradient(
+      to top,
+      rgba(131, 58, 180, 0.5),
+      rgba(253, 29, 29, 0.5),
+      rgba(252, 176, 69, 0.5)
+    ),
+    url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#emailHelp {
+  display: none;
+}
