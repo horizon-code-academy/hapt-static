@@ -1,0 +1,9 @@
+{
+  "name": "hapt-static",
+  "version": "1.0.0",
+  "description": "Static HTML, CSS & JS files.",
+  "main": "index.html",
+  "repository": "https://github.com/horizon-code-academy/hapt-static.git",
+  "author": "Team Horizon <contact@hapt.tn>",
+  "license": "MIT"
+}

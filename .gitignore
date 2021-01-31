@@ -1,7 +1,11 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,dotenv,node,webstorm
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,dotenv,node,webstorm
+# Created by https://www.toptal.com/developers/gitignore/api/yarn,webstorm,visualstudiocode,node,macos,dotenv,chocolatey
+# Edit at https://www.toptal.com/developers/gitignore?templates=yarn,webstorm,visualstudiocode,node,macos,dotenv,chocolatey
+
+### Chocolatey ###
+# Exclude packaged modules
+*.nupkg
 
 ### dotenv ###
 .env
@@ -261,7 +265,23 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,dotenv,node,webstorm
+### yarn ###
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
+
+# End of https://www.toptal.com/developers/gitignore/api/yarn,webstorm,visualstudiocode,node,macos,dotenv,chocolatey
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
